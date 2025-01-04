@@ -16,6 +16,7 @@ where
     n % T::from(2).unwrap() == T::zero()
 }
 
+/// Returns data converted from &str to i32
 pub fn convert_str_to_i32(str: &str) -> i32 {
     str.trim()
         .parse::<i32>()
