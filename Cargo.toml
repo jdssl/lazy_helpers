@@ -1,0 +1,14 @@
+[package]
+name = "lazy_helpers"
+version = "0.0.1"
+edition = "2021"
+authors = ["Jonatan Lima <jotanlima@gmail.com>"]
+description = "Lazy helpers for lazy programmers"
+repository = "https://github.com/jdssl/lazy_helpers"
+documentation = "https://github.com/jdssl/lazy_helpers/blob/master/README.md"
+license = "MIT"
+keywords = ["lazy", "helpers", "help"]
+categories = ["functions"]
+
+[dependencies]
+num = "0.4"
