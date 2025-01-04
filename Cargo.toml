@@ -8,7 +8,7 @@ repository = "https://github.com/jdssl/lazy_helpers"
 documentation = "https://github.com/jdssl/lazy_helpers/blob/master/README.md"
 license = "MIT"
 keywords = ["lazy", "helpers", "help"]
-categories = ["functions"]
+categories = ["development-tools"]
 
 [dependencies]
 num = "0.4"
