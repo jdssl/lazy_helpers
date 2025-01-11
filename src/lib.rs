@@ -2,7 +2,7 @@ use std::str::FromStr;
 
 use num::PrimInt;
 
-/// Returns true when receive the odd number.
+/// Returns true when receiving the odd number.
 pub fn is_odd<T>(n: T) -> bool
 where
     T: PrimInt,
@@ -10,7 +10,7 @@ where
     n % T::from(2).unwrap() != T::zero()
 }
 
-/// Returns false when receive the even number.
+/// Returns true when receiving the even number.
 pub fn is_even<T>(n: T) -> bool
 where
     T: PrimInt,
